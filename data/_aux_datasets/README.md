@@ -1,0 +1,1 @@
+This folder stores the auxiliary datasets, such that they can be loaded faster.

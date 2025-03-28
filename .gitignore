@@ -1,0 +1,17 @@
+*pycache/
+*pycache__/
+**.egg-info
+*.pyc
+*.ipynb_checkpoints/
+
+.vscode/
+
+*/wandb/*
+
+.env
+data/*/*.zip
+data/*/*.csv
+data/*/*.tsf
+data/*/*.pt
+data/*/*.txt
+media/*

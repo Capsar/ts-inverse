@@ -1,0 +1,27 @@
+[project]
+name = "ts-inverse"
+version = "0.1.0"
+description = "Package of TS-Inverse, accepted to SaTML 2025 Conference in Copenhagen, Denmark."
+authors = [
+    { name = "Caspar Meijer", email = "public.caspar@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "opacus",
+    "matplotlib",
+    "ipykernel",
+    "scikit-learn",
+    "pandas",
+    "plotly",
+    "numba",
+    "flwr[simulation]",
+    "wandb",
+    "python-dotenv",
+    "openpyxl",
+    "pynvml",
+    "notebook",
+    "chardet",
+    "seaborn",
+    "torch",
+]
