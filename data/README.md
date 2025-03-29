@@ -25,13 +25,14 @@ Other columns present float values with consumption in kW
 
 # KDDCup_2018
 ## Source:
-[https://zenodo.org/records/4656091 (London Smart Meter)](https://zenodo.org/records/4656091) at Zenodo.
+[https://zenodo.org/records/4656756 (KDD Cup 2018)](https://zenodo.org/records/4656756) at Zenodo.
 
 ## Description:
-Kaggle London Smart Meters dataset contains 5560 half hourly time series that represent the energy consumption readings of London households in kilowatt hour (kWh) from November 2011 to February 2014.
+This dataset was used in the KDD Cup 2018 forecasting competition. It contains long hourly time series representing the air quality levels in 59 stations in 2 cities: Beijing (35 stations) and London (24 stations) from 01/01/2017 to 31/03/2018. The air quality level is represented in multiple measurements such as PM2.5, PM10, NO2, CO, O3 and SO2.
 
-The original dataset contains missing values. They have been replaced by carrying forward the corresponding last observations (LOCF method).
+The dataset uploaded here contains 270 hourly time series which have been categorized using city, station name and air quality measurement. 
 
+The original dataset contains missing values. The leading missing values of a given series were replaced by zeros and the remaining missing values were replaced by carrying forward the corresponding last observations (LOCF method). 
 
 # LondonSmartMeter
 
