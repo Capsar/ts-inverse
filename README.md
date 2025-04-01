@@ -27,7 +27,7 @@ git clone git@github.com:Capsar/ts-inverse.git && cd ts-inverse
 1. Follow the quick install guide for Miniconda: [Miniconda Installation Guide](https://docs.anaconda.com/free/miniconda/).
 2. Create the environment:
     ```bash
-    conda env create --name ts-inverse python=3.11
+    conda create --name ts-inverse python=3.11
     ```
 3. Activate the environment and install the ts-inverse package:
     ```bash
